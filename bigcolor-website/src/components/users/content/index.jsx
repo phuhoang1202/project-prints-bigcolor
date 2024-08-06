@@ -294,19 +294,19 @@ export default function Content() {
                           data-wow-delay=".1s"
                         >
                           <a
-                            href="javascript:void(0)"
+                            href="#"
                             className="block rounded-md bg-primary/[0.08] px-[14px] py-[5px] text-base text-dark hover:bg-primary hover:text-white dark:text-white"
                           >
                             Design
                           </a>
                           <a
-                            href="javascript:void(0)"
+                            href="#"
                             className="block rounded-md bg-primary/[0.08] px-[14px] py-[5px] text-base text-dark hover:bg-primary hover:text-white dark:text-white"
                           >
                             Development
                           </a>
                           <a
-                            href="javascript:void(0)"
+                            href="#"
                             className="block rounded-md bg-primary/[0.08] px-[14px] py-[5px] text-base text-dark hover:bg-primary hover:text-white dark:text-white"
                           >
                             Info
@@ -322,7 +322,7 @@ export default function Content() {
                             Share This Post
                           </span>
                           <div className="flex items-center gap-[10px]">
-                            <a href="javascript:void(0)">
+                            <a href="#">
                               <svg
                                 width={32}
                                 height={32}
@@ -340,7 +340,7 @@ export default function Content() {
                                 />
                               </svg>
                             </a>
-                            <a href="javascript:void(0)">
+                            <a href="#">
                               <svg
                                 width={32}
                                 height={32}
@@ -358,7 +358,7 @@ export default function Content() {
                                 />
                               </svg>
                             </a>
-                            <a href="javascript:void(0)">
+                            <a href="#">
                               <svg
                                 width={32}
                                 height={32}

@@ -6,7 +6,7 @@ export default function RelatedArticles() {
     <div className="w-full px-4 md:w-1/2 lg:w-1/3">
       <div className="mb-10 wow fadeInUp group" data-wow-delay=".1s">
         <div className="mb-8 overflow-hidden rounded-[5px]">
-          <a href="blog-details.html" className="block">
+          <a href="#" className="block">
             <img
               src={Img1}
               alt="image"
@@ -20,7 +20,7 @@ export default function RelatedArticles() {
           </span>
           <h3>
             <a
-              href="blog-details.html"
+              href="#"
               className="inline-block mb-4 text-xl font-semibold text-dark hover:text-primary dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
             >
               Meet AutoManage, the best AI management tools

@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-gray-800 wow fadeInUp" data-wow-delay=".1s">
       <div className="container flex">
         <div className="px-8 py-4 bg-primary flex items-center cursor-pointer relative group">
           <span className="text-white">
@@ -79,27 +79,51 @@ export default function Navbar() {
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-between flex-grow pl-12">
+        <div className="flex items-center justify-evenly flex-grow pl-12">
           <div className="flex items-center space-x-6 capitalize">
             <Link
               to={"/"}
               className="text-gray-200 hover:text-white transition"
             >
-              Trang Chủ
+              TRANG CHỦ
             </Link>
             <Link
               to={"/all-product"}
               className="text-gray-200 hover:text-white transition"
             >
-              Sản Phẩm
+              SẢN PHẨM
             </Link>
-            <a href="#" className="text-gray-200 hover:text-white transition">
-              About us
+            <a
+              href="#"
+              className="text-gray-200 uppercase hover:text-white transition"
+            >
+              VỀ CHÚNG TÔI
             </a>
-            <a href="#" className="text-gray-200 hover:text-white transition">
-              Contact us
+            <Link
+              to={"/content"}
+              className="text-gray-200 uppercase hover:text-white transition"
+            >
+              Bài viết
+            </Link>
+            <a
+              href="#"
+              className="text-gray-200 uppercase hover:text-white transition"
+            >
+              TÌM KIẾM MÁY IN PHÙ HỢP
+            </a>
+            <a
+              href="#"
+              className="text-gray-200 uppercase hover:text-white transition"
+            >
+              LIÊN HỆ
             </a>
           </div>
+          <a
+            href="#"
+            className="text-gray-200 uppercase hover:text-white transition"
+          >
+            Hỗ trợ kỹ thuật - 0123456789
+          </a>
         </div>
       </div>
     </nav>

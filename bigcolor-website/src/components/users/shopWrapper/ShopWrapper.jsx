@@ -541,7 +541,7 @@ export default function ShopWrapper() {
               </div>
             </div>
           </div>
-          <div className="pt-4">
+          {/* <div className="pt-4">
             <h3 className="text-xl text-gray-800 mb-3 uppercase font-medium">
               Price
             </h3>
@@ -680,7 +680,7 @@ export default function ShopWrapper() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* products */}

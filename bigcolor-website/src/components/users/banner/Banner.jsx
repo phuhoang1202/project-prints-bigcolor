@@ -3,7 +3,8 @@ import React from "react";
 export default function Banner() {
   return (
     <div
-      className="bg-cover bg-no-repeat bg-center py-36"
+      className="bg-cover bg-no-repeat bg-center py-36 wow fadeInUp"
+      data-wow-delay=".1s"
       style={{
         backgroundImage: 'url("./src/assets/users/images/banner-bg.jpg")',
       }}

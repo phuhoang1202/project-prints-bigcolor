@@ -1,18 +1,19 @@
 import React from "react";
-import Logo from "@assets/users/images/logo.svg";
+import Logo from "@assets/users/images/logo.jpg";
 import {
   HeartOutlined,
   ShoppingCartOutlined,
   UserOutlined,
 } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="py-4 shadow-sm bg-white">
       <div className="container flex items-center justify-between">
-        <a href="index.html">
-          <img src={Logo} alt="Logo" className="w-32" />
-        </a>
+        <Link to={"/"}>
+          <img src={Logo} alt="Logo" />
+        </Link>
         <div className="w-full max-w-xl relative flex">
           <span className="absolute left-4 top-3 text-lg text-gray-400">
             <i className="fa-solid fa-magnifying-glass" />

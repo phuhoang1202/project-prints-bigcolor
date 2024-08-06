@@ -9,6 +9,7 @@ import Product from "../../components/users/product/Product";
 import Footer from "../../components/users/footer/Footer";
 import Copyright from "../../components/users/copyright/Copyright";
 import Ads from "../../components/users/ads/Ads";
+import RelatedArticles from "../../components/users/content/contnetArticles/RelatedArticles";
 
 export default function Homepage() {
   return (
@@ -35,10 +36,11 @@ export default function Homepage() {
       <Ads />
       {/* ./ads */}
       {/* product */}
-      <div className="container pb-16">
-        <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">
-          Các sản phẩm
+      <div className="container pb-16 wow fadeInUp" data-wow-delay=".1s">
+        <h2 className="relative pb-5 text-2xl uppercase font-semibold text-dark dark:text-white sm:text-[36px]">
+          CÁC SẢN PHẨM
         </h2>
+        <span className="mb-10 inline-block h-[2px] w-20 bg-primary" />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <Product />
           <Product />
@@ -51,9 +53,26 @@ export default function Homepage() {
         </div>
       </div>
       {/* ./product */}
+      {/* Content */}
+      <div className="container pb-16 wow fadeInUp" data-wow-delay=".1s">
+        <div className="flex flex-wrap -mx-4">
+          <div className="w-full px-4 wow fadeInUp mt-14" data-wow-delay=".2s">
+            <h2 className="relative pb-5 text-2xl uppercase font-semibold text-dark dark:text-white sm:text-[36px]">
+              BÀI VIẾT
+            </h2>
+            <span className="mb-10 inline-block h-[2px] w-20 bg-primary" />
+          </div>
+          <RelatedArticles />
+          <RelatedArticles />
+          <RelatedArticles />
+        </div>
+      </div>
+      {/* Content */}
+
       {/* footer */}
       <Footer />
       {/* ./footer */}
+
       {/* copyright */}
       <Copyright />
       {/* ./copyright */}

@@ -33,10 +33,10 @@ export default function Product() {
             Guyer Chair
           </h4>
         </a>
-        <div className="flex items-baseline mb-1 space-x-2">
+        {/* <div className="flex items-baseline mb-1 space-x-2">
           <p className="text-xl text-primary font-semibold">$45.00</p>
           <p className="text-sm text-gray-400 line-through">$55.90</p>
-        </div>
+        </div> */}
         <div className="flex items-center">
           <div className="flex gap-1 text-sm text-yellow-400">
             <span>
@@ -55,7 +55,7 @@ export default function Product() {
               <i className="fa-solid fa-star" />
             </span>
           </div>
-          <div className="text-xs text-gray-500 ml-3">(150)</div>
+          {/* <div className="text-xs text-gray-500 ml-3">(150)</div> */}
         </div>
       </div>
       <a
